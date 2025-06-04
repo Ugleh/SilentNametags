@@ -1,0 +1,30 @@
+# ----------------------------------------------------------------
+# Silent Nametag Configuration
+# ----------------------------------------------------------------
+
+silent-nametag:
+  display-name: "&bSilent Nametag"
+  lore:
+    - "&7Use to make a mob silent."
+    - "&7Rename in anvil to name silently."
+  recipe:
+    type: shapeless
+    ingredients:
+      - "NAME_TAG"
+      - "WHITE_WOOL"
+
+# If you prefer shaped instead, comment the above and uncomment this:
+# silent-nametag:
+#   display-name: "&bSilent Nametag"
+#   lore:
+#     - "&7Use to make a mob silent."
+#     - "&7Rename in anvil to name silently."
+#   recipe:
+#     type: shaped
+#     shape:
+#       - "NW "
+#       - "   "
+#       - "   "
+#     ingredients:
+#       N: "NAME_TAG"
+#       W: "WHITE_WOOL"

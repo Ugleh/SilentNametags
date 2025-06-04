@@ -1,0 +1,9 @@
+name: SilentNametags
+main: com.ugleh.plugins.silentnametags.SilentNametagsPlugin
+version: 1.0
+api-version: "1.21"
+
+permissions:
+  silentnametags.use:
+    description: Allows the player to craft the nametag as well as silence or unsilence mobs using the nametag.
+    default: true
